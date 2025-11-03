@@ -5,3 +5,4 @@ __pycache__/
 *.pyd
 .env
 seed.py
+food-ordering-backend.code-workspace

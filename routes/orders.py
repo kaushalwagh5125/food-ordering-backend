@@ -9,7 +9,7 @@ from dsa.queue import Queue
 
 router = APIRouter(prefix="/orders", tags=["Orders"])
 
-# Global order processing queue
+#order processing queue
 order_queue = Queue()
 
 @router.post("/", response_model=OrderResponse)
